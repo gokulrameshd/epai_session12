@@ -3,5 +3,8 @@ import numpy as np
 
 
 def sigmoid(X):
-   return 1/(1+np.exp(-X))
+    """
+    This function returns the sigmoid value for the given input
+    """
+    return 1/(1+np.exp(-X))
 

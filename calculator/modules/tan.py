@@ -15,8 +15,5 @@ def get_derivative(fn,x):
     return der
 
 def tan_derivative(x):
-    """
-    This function returns the tan  DERIVATIVE value for the given input
-    """
     der = derivative(tan,x,dx=1e-9)
     return der

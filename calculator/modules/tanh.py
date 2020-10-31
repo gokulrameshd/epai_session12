@@ -18,8 +18,5 @@ def get_derivative(fn,x):
     return der
 
 def tanh_derivative(x):
-    """
-    This function returns the tanh derivative value for the given input
-    """
     der = derivative(tanh,x,dx=1e-9)
     return der

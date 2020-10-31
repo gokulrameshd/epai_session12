@@ -16,8 +16,5 @@ def get_derivative(fn,x):
     return der
 
 def cos_derivative(x):
-    """
-    This function returns the cosine derivative value of the given input
-    """
     der = derivative(cos,x,dx=1e-9)
     return der

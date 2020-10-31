@@ -15,8 +15,5 @@ def get_derivative(fn,x):
     return der
 
 def sigmoid_derivative(x):
-    """
-    This function returns the sigmoid derivative value for the given input
-    """
     der = derivative(sigmoid,x,dx=1e-9)
     return der

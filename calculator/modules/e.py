@@ -17,8 +17,5 @@ def get_derivative(fn,x):
     return der
 
 def e_derivative(x):
-    """
-    This function returns the e derivative value for the given input
-    """
     der = derivative(e,x,dx=1e-9)
     return der

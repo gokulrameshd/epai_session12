@@ -16,8 +16,5 @@ def get_derivative(fn,x):
     return der
 
 def sin_derivative(x):
-    """
-    This function returns the sine derivative value of the given input
-    """
     der = derivative(sin,x,dx=1e-9)
     return der

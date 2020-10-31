@@ -17,8 +17,5 @@ def get_derivative(fn,x):
     return der
 
 def relu_derivative(x):
-    """
-    This function returns the relu  derivative value for the given input
-    """
     der = derivative(relu,x,dx=1e-9)
     return der

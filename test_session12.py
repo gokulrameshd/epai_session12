@@ -33,9 +33,9 @@ def test_softmax():
     softmax([2,3]) == [0.26894142, 0.73105858]
 
 
-# def test_softmax_1():
-#     with pytest.raises(ValueError) as e_info:
-#         softmax([2]) == 'Exception: Sorry, lenght of the list should be more than one'
+def test_softmax_1():
+    with pytest.raises(ValueError) as e_info:
+        softmax([2]) == 'Exception: Sorry, lenght of the list should be more than one'
 
 def test_cos_derivative():
     round(derivative.cos_derivative(5),2) == 0.96
